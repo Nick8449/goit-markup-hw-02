@@ -25,42 +25,26 @@ body {
   letter-spacing: 0.32px;
 }
 
-h1 {
-  color: var(--white);
-  font-size: 56px;
-  font-weight: bold;
-  line-height: 60px;
-  letter-spacing: 1.07;
-  text-align: center;
-}
-
-h2 {
+.header-2 {
   color: var(--navyblue);
   font-size: 36px;
   font-weight: bold;
-  text-align: center;
+  line-height: 1.11;
+  text-transform: capitalize;
 }
 
-h3 {
-  color: var(--navyblue);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
+.list {
+  list-style: none;
 }
 
-ul {
-  list-style-type: none;
-}
-
-a {
+.link {
   text-decoration: none;
 }
 
 /* Header */
 
 .logo {
-  color: var(--navyblue, #2e2f42);
+  color: var(--iris);
   font-family: var(--logo-font-family);
   font-size: 18px;
   font-weight: 800;
@@ -71,13 +55,15 @@ a {
 }
 
 .logo-style {
-  color: var(--iris, #4d5ae5);
+  color: var(--navyblue);
 }
 
 .nav-link {
   color: var(--navyblue, #2e2f42);
+  font-size: 16;
   font-weight: 500;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .address-link {
@@ -88,12 +74,24 @@ a {
 .nav-link:focus,
 .address-link:hover,
 .address-link:focus {
-  text-decoration: underline;
+  color: var(--pressed-state-color);
+}
+
+.contacts {
+  font-style: normal;
 }
 
 /* Header */
 
 /* Start Screen */
+
+.hero-text {
+  color: var(--white);
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
 
 .start-screen {
   background-color: var(--navyblue, #2e2f42);
@@ -103,6 +101,7 @@ a {
   background-color: var(--iris);
   color: var(--white, #fff);
   font-weight: 500;
+  cursor: pointer;
 }
 
 .start-screen-button:hover,
@@ -122,16 +121,27 @@ a {
   background-color: var(--white);
 }
 
+.member-name {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.member-description {
+  font-size: 16px;
+}
 /* Our Team */
 
 /* Footer */
 
-footer {
+.footer {
   background-color: var(--navyblue);
 }
 
 .footer-logo {
-  color: var(--cloud, #f4f4fd);
+  color: var(--iris);
   font-family: var(--logo-font-family);
   font-size: 18px;
   font-weight: 800;
@@ -141,7 +151,7 @@ footer {
 }
 
 .footer-logo-style {
-  color: var(--iris, #4d5ae5);
+  color: var(--cloud);
 }
 
 .footer-text {
@@ -151,8 +161,6 @@ footer {
 /* Footer */
 
 /* ========== Portfolio ========== */
-
-/* Filter */
 
 .filter-button {
   color: var(--iris, #4d5ae5);
@@ -168,11 +176,5 @@ footer {
   background-color: var(--pressed-state-color);
   color: var(--white, #fff);
 }
-
-/* Filter */
-
-/* Project card */
-
-/* Project card */
 
 /* ========== Portfolio ========== */
