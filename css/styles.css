@@ -31,6 +31,7 @@ body {
   font-weight: bold;
   line-height: 1.11;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .list {
@@ -91,6 +92,7 @@ body {
   font-weight: bold;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .start-screen {
@@ -100,7 +102,9 @@ body {
 .start-screen-button {
   background-color: var(--iris);
   color: var(--white, #fff);
+  line-height: 1.5;
   font-weight: 500;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
@@ -110,6 +114,14 @@ body {
 }
 
 /* Start Screen */
+
+.feature-headline {
+  color: var(--navyblue);
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.11;
+  text-transform: capitalize;
+}
 
 /* Our Team */
 
@@ -165,8 +177,6 @@ body {
 .filter-button {
   color: var(--iris, #4d5ae5);
   background-color: var(--cloud, #e7e9fc);
-  border-radius: 4px;
-  border: 1px solid var(--cornflower, #e7e9fc);
   font-weight: 500;
   line-height: 1.5;
 }
