@@ -143,6 +143,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.card-description {
+  color: var(--slate);
+}
+
 /* Our Team */
 
 /* Footer */
