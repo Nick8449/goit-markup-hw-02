@@ -25,7 +25,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.headline2 {
+.section-headline {
   color: var(--navyblue);
   font-size: 36px;
   font-weight: bold;
