@@ -17,7 +17,7 @@
 
 body {
   background-color: var(--white);
-  color: var(--slate, #434455);
+  color: var(--slate);
   font-family: var(--main-font-family);
   font-size: 16px;
   line-height: 1.5;
@@ -25,11 +25,12 @@ body {
   letter-spacing: 0.02em;
 }
 
-.h2 {
+.headline2 {
   color: var(--navyblue);
   font-size: 36px;
   font-weight: bold;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
 }
@@ -117,9 +118,10 @@ body {
 
 .feature-headline {
   color: var(--navyblue);
-  font-size: 36px;
-  font-weight: bold;
-  line-height: 1.11;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
@@ -172,8 +174,10 @@ body {
 /* ========== Portfolio ========== */
 
 .filter-button {
+  font-family: var(--main-font-family);
   color: var(--iris, #4d5ae5);
   background-color: var(--cloud);
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
